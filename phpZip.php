@@ -190,10 +190,10 @@ function generate_zip_file($files = array(),$destination = '',$overwrite = false
                     if($result){
                         echo '<p style="text-align: center;"><strong style="color: red;">Successfully Created Zip file ' . $final_name . '.</strong></p>';
                     } else {
-                        echo '<p style="text-align: center;">Failed to create zip file, Please try again</p>';
+                        echo '<p style="text-align: center;color: red;">Failed to create zip file, Please try again</p>';
                     }
                 } else {
-                    echo '<p style="text-align: center;">Please provide a name for the zip file</p>';
+                    echo '<p style="text-align: center;color: red;">Please provide a name for the zip file</p>';
                 }
             }
         ?>
