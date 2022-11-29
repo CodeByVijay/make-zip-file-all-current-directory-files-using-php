@@ -90,7 +90,7 @@ function generate_zip_file($files = array(),$destination = '',$overwrite = false
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ZipCF PHP 2.0 - Create a Zip with contents in the current Direcory (php script)</title>
+    <title>makeZip PHP 2.0 - Create a Zip with contents in the current Direcory (php script)</title>
     <meta name="robots" content="noindex">
     <style type="text/css">
         body{
@@ -152,7 +152,7 @@ function generate_zip_file($files = array(),$destination = '',$overwrite = false
 </head>
 <body>
     <div class="container">
-        <h3>ZipCF 2.0 - Make zip file with current directory! </h3>
+        <h3>makeZip 2.0 - Make zip file with current directory! </h3>
         <?php
             if(isset($_POST['zip_file_name'])){
                 
