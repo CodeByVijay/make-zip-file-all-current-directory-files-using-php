@@ -188,7 +188,7 @@ function generate_zip_file($files = array(),$destination = '',$overwrite = false
                     // print_r($result);
                     // die();
                     if($result){
-                        echo '<p style="text-align: center;">Successfully Created Zip file ' . $final_name . '. <br><br /> <strong style="color: red;">Please don\'t forget to either set a password at the top of ZipCF.php file or delete this file when you\'re done.</strong></p>';
+                        echo '<p style="text-align: center;"><strong style="color: red;">Successfully Created Zip file ' . $final_name . '.</strong></p>';
                     } else {
                         echo '<p style="text-align: center;">Failed to create zip file, Please try again</p>';
                     }
